@@ -7,9 +7,9 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'windows-version'
+  vmImage: 'windows-latest'
   demands:
-  - npm 
+  - npm
 
 variables:
   solution: '**/*.sln'
